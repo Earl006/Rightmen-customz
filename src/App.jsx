@@ -1,7 +1,8 @@
 
-import './App.css'
+
 import Sidenav from './components/Sidenav'
 import Main from './components/Main'
+import About from './components/About'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
    <div>
 <Sidenav/>
 <Main/>
+<About/>
    </div>
   )
 }
