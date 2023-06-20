@@ -4,7 +4,7 @@ import { FaInstagram, FaFacebook, FaWhatsapp } from 'react-icons/fa';
 
 function Main() {
   return (
-    <div className="relative min-h-screen w-screen overflow-hidden bg-black">
+    <div  id='main' className="relative min-h-screen w-screen overflow-hidden bg-black">
       <img
         className='absolute top-0 left-0 w-full h-full object-cover object-center'
         src='images/back2.jpg'
